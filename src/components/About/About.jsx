@@ -6,7 +6,7 @@ const About = () => {
         "I'm currently a second-year Computer Science and Data Science student, gaining knowledge in various data science techniques, algorithms, and data analysis tools.",
     },
     {
-      name: "A Full-Stack Developer",
+      name: "An Aspiring Full-Stack Developer",
       description:
         "I'm also a full-stack developer, proficient in a wide range of technologies, from front-end development with HTML, CSS, and JavaScript to back-end programming, enabling me to create comprehensive online solutions.",
     },
