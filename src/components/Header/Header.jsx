@@ -1,8 +1,9 @@
 const Head = () => {
   const tabs = [
-    { name: "About me", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Skills", link: "#skills" },
+    { name: "About me", link: "/#about" },
+    { name: "Projects", link: "/#projects" },
+    { name: "Skills", link: "/#skills" },
+    { name: "Services", link: "/#services" },
     // { name: "Blog", link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
   ];
   
@@ -13,7 +14,7 @@ const Head = () => {
       <div className="flex items-center">
         <img src="/amit_logo.png" width="30" className="mx-1" alt="AJ-Logo" />
         <h1 className="bg font-extrabold">
-          <a href="#">
+          <a href="/">
             <b className="font-bold">Amit</b> <span className="">Acharya</span>
           </a>
         </h1>
@@ -24,7 +25,6 @@ const Head = () => {
             key={index}
             href={tab.link}
             className="duration-200 hover:text-violet-400"
-            target={tab.name === "Blog" ? "_blank" : ""}
             rel="noopener noreferrer"
           >
             <p>{tab.name}</p>

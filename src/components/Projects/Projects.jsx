@@ -28,6 +28,27 @@ const Projects = () => {
       githubLink: "https://github.com/AJAmit17/NammaDoctor",
       imageSrc: "https://th.bing.com/th/id/OIP.u0Pk-feV2uAMLCfcbXUVDwHaE8?w=270&h=180&c=7&r=0&o=5&pid=1.7", 
     },
+    {
+      name: "DF-core",
+      description:
+        "A web application developed using Django to provide a platform for managing medical records, appointments, and healthcare information, offering a user-friendly solution for patients and healthcare professionals.",
+      githubLink: "https://github.com/AJAmit17/NammaDoctor",
+      imageSrc: "https://th.bing.com/th/id/OIP.u0Pk-feV2uAMLCfcbXUVDwHaE8?w=270&h=180&c=7&r=0&o=5&pid=1.7", 
+    },
+    {
+      name: "DF-Store",
+      description:
+        "A web application developed using Django to provide a platform for managing medical records, appointments, and healthcare information, offering a user-friendly solution for patients and healthcare professionals.",
+      githubLink: "https://github.com/AJAmit17/NammaDoctor",
+      imageSrc: "https://th.bing.com/th/id/OIP.u0Pk-feV2uAMLCfcbXUVDwHaE8?w=270&h=180&c=7&r=0&o=5&pid=1.7", 
+    },
+    {
+      name: "SQL Query Generator LLM",
+      description:
+        "A web application developed using Django to provide a platform for managing medical records, appointments, and healthcare information, offering a user-friendly solution for patients and healthcare professionals.",
+      githubLink: "https://github.com/AJAmit17/NammaDoctor",
+      imageSrc: "https://th.bing.com/th/id/OIP.u0Pk-feV2uAMLCfcbXUVDwHaE8?w=270&h=180&c=7&r=0&o=5&pid=1.7", 
+    },
   ];
 
   return (

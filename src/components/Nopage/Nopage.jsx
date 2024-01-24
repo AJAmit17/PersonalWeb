@@ -8,6 +8,12 @@ const NoPage = () => {
           The page tried hiding from you, but you found it anyway. Nice detective
           skills!
         </p>
+        <button className="blueShadow relative overflow-hidden m-[30px] px-5 py-2 group rounded-full bg-white text-slate-950">
+          <a href="/">
+            <div className="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200" />
+            <h4 className="relative z-9">Home page</h4>
+          </a>
+        </button>
       </div>
     );
   };
