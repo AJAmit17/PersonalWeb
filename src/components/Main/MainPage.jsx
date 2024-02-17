@@ -2,8 +2,9 @@ import About from "../About/About";
 import ContactForm from "../Contact/Contact";
 import Hero from "../Hero/Hero";
 import Projects from "../Projects/Projects";
-import DisplayService from "../Services/displayService";
+// import DisplayService from "../Services/displayService";
 import Skills from "../Skills/Skills";
+import { LayoutGridDemo } from "../test/testing";
 
 const MainPage = () => {
   return (
@@ -11,7 +12,7 @@ const MainPage = () => {
       <Hero/>
       <About />
       <Skills/>
-      <DisplayService />
+      <LayoutGridDemo />
       <Projects />
       <ContactForm/>
     </main>

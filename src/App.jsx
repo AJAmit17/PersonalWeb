@@ -9,6 +9,7 @@ import Editing from "./components/Services/editings";
 import Datalysis from "./components/Services/data-analysis";
 import Seo from "./components/Services/seo";
 import { motion, useScroll, useSpring } from "framer-motion";
+import { LayoutGridDemo } from "./components/test/testing";
 
 // eslint-disable-next-line react/prop-types
 function Application({ goTop, showScrollButton }) {
@@ -32,6 +33,7 @@ function Application({ goTop, showScrollButton }) {
             <Route path="service/editings" element={<Editing />} />
             <Route path="service/data-analysis" element={<Datalysis />} />
             <Route path="service/seo" element={<Seo />} />
+            <Route path="test" element={<LayoutGridDemo />} />
           </Routes>
         </BrowserRouter>
         <Footer />
