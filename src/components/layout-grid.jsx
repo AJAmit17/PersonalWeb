@@ -9,8 +9,13 @@ export const LayoutGrid = ({ cards }) => {
   const [lastSelected, setLastSelected] = useState(null);
 
   const handleClick = (card) => {
-    setLastSelected(selected);
-    setSelected(card);
+    if (selected?.id === card.id) {
+      setLastSelected(selected);
+      setSelected(null);
+    } else {
+      setLastSelected(selected);
+      setSelected(card);
+    }
   };
 
   const handleOutsideClick = () => {
@@ -28,7 +33,7 @@ export const LayoutGrid = ({ cards }) => {
               card.className,
               "relative overflow-hidden",
               selected?.id === card.id
-                ? "rounded-lg cursor-pointer absolute inset-0 h-[450px] w-[950px] m-auto z-50 flex justify-center items-center flex-wrap flex-col"
+                ? "rounded-lg cursor-pointer absolute inset-0 sm:h-[450px] sm:w-[950px] h-[40vh] w-[70vw] m-auto z-50 flex justify-center items-center flex-wrap flex-col"
                 : lastSelected?.id === card.id
                 ? "z-40 bg-white rounded-xl h-full w-full"
                 : "bg-white rounded-xl h-full w-full"
@@ -69,7 +74,6 @@ const BlurImage = ({ card }) => {
         )}
         alt="thumbnail"
       />
-      <p>asdasdasd</p>
     </>
   );
 };
