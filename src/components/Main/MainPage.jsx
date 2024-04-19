@@ -1,10 +1,11 @@
 import About from "../About/About";
 import ContactForm from "../Contact/Contact";
 import Hero from "../Hero/Hero";
+import { LayoutGridDemo } from "../layoutGrid/layoutGrid";
 import Projects from "../Projects/Projects";
 // import DisplayService from "../Services/displayService";
 import Skills from "../Skills/Skills";
-import { LayoutGridDemo } from "../test/testing";
+
 
 const MainPage = () => {
   return (

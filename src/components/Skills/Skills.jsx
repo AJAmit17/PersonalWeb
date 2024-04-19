@@ -45,6 +45,7 @@ export default function Skills() {
     { id: 7, name: "Bootstrap", icon: BootStrap },
     { id: 8, name: "Next.js", icon: NextJS },
     { id: 9, name: "Astro", icon: astro },
+    { id: 10, name: "React Native", icon: React },
   ];
 
   const BE = [
