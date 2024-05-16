@@ -1,9 +1,7 @@
 import About from "../About/About";
 import ContactForm from "../Contact/Contact";
 import Hero from "../Hero/Hero";
-import { LayoutGridDemo } from "../layoutGrid/layoutGrid";
 import Projects from "../Projects/Projects";
-// import DisplayService from "../Services/displayService";
 import Skills from "../Skills/Skills";
 
 
@@ -13,7 +11,6 @@ const MainPage = () => {
       <Hero/>
       <About />
       <Skills/>
-      <LayoutGridDemo />
       <Projects />
       <ContactForm/>
     </main>
